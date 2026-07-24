@@ -1,7 +1,26 @@
 aid: bonum-coaching
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/bonum-coaching.png
 name: Bonum Coaching
-description: Bonum Coaching is a company surfaced as a portfolio company of 500-global and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Bonum Coaching is an enterprise coaching platform based in Latin America
+  that pairs personalized human coaching with technology to develop talent and improve
+  organizational performance. Its offering spans one-to-one executive coaching, group
+  and team coaching, structured mentoring programs, and CLARA, an AI coach-bot for
+  practicing workplace conversations in a safe environment. The company positions
+  itself around democratizing access to coaching, leadership development, talent retention,
+  building a growth culture, and diversity, equity and inclusion, and counts enterprises
+  such as Uber, Davivienda, Farmatodo, and Mi Banco among its clients. Backed by 500
+  Global, Bonum Coaching is tracked in the API Evangelist network as a company profile.
 url: https://raw.githubusercontent.com/api-evangelist/bonum-coaching/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +30,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Coaching
+- Human Resources
+- Talent Development
+- Leadership
+- Mentoring
+- Artificial Intelligence
+- Enterprise
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +47,20 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/bonum-coaching-domain-security.yml
+- type: Blog
+  url: https://blog.bonumcoaching.com/
+- type: PrivacyPolicy
+  url: https://www.bonumcoaching.com/politica-de-privacidad
+- type: Login
+  url: https://app.bonumcoaching.com/
+- type: Support
+  url: https://www.bonumcoaching.com/contacto-especialista
 - type: Website
   url: https://bonumcoaching.com
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
